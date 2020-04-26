@@ -1,0 +1,110 @@
+$bright-red: hsl(12, 88%, 59%);
+$dark-blue: hsl(228, 39%, 23%);
+$dark-grayish-blue: hsl(227, 12%, 61%);
+$very-dark-blue: hsl(233, 12%, 13%);
+$very-pale-red: hsl(13, 100%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$font-be-vietnam: "Be Vietnam", sans-serif;
+$fw-bold: 700;
+$fw-medium: 500;
+$fw-regular: 400;
+
+* {
+  box-sizing: border-box;
+  // outline:1px solid #333;
+  margin:0;
+  padding:0;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $dark-blue;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.l-heading {
+  font-size: 3.5rem;
+}
+.m-heading {
+  font-size: 2rem;
+}
+.s-heading {
+  font-size: 1.1rem;
+}
+
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+body {
+  background: #fff;
+  line-height: 1.5;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 16px;
+  font-weight: $fw-regular;
+  // overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  margin-left: 0;
+  border: none;
+  border-radius: 2rem;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 14px;
+  font-weight: $fw-bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: $bright-red;
+  color: #fff;
+  box-shadow: 5px 5px 10px 0 hsla(12, 88%, 59%, 0.5);
+  &:hover {
+    background: lighten($bright_red, 10%);
+  }
+}
+
+.btn-light {
+  background: #fff;
+  color: $bright-red;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.15);
+  &:hover {
+    background: darken(#fff, 4%);
+  }
+}

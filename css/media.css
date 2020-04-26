@@ -1,0 +1,13 @@
+@media only screen and (max-width:850px) and (min-width:300px){
+    .flex-row{
+        flex-direction: column;
+    }
+    #navbar{
+        height:2rem;
+        font-size:1rem;
+    }
+
+    #hamburger{
+        display: block;
+    }
+}

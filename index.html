@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Manage</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="images/favicon-32x32.png" size="32x32" type="image/png" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container flex">
+      <img src="images/logo.svg" alt="logo" class="nav__logo" />
+      <button class="nav__hamburger" id="hamburger">
+        <img src="images/icon-hamburger.svg" alt="menu icon" class="nav__hamburger--open" />
+        <img src="images/icon-close.svg" alt="menu icon" class="nav__hamburger--close" />
+      </button>
+      <ul class="nav__list flex row" id="nav-ul">
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Pricing</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Product</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">About Us</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Careers</a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#" class="nav__link">Community</a>
+        </li>
+      </ul>
+      <button class="nav__btn btn btn-primary">Get Started</button>
+    </div>
+  </nav>
+  <section class="bring">
+    <div class="container flex row">
+      <div class="bring__info">
+        <h1 class="bring__title l-heading">
+          Bring everyone together to build better products.
+        </h1>
+        <p class="bring__desc">
+          Manage makes it simple for software teams to plan day-to-day tasks
+          while keeping the larger team goals in view.
+        </p>
+        <button class="bring__btn btn btn-primary">Get Started</button>
+      </div>
+      <img src="images/illustration-intro.svg" alt="" class="bring__img" />
+    </div>
+  </section>
+  <section class="about">
+    <div class="container grid">
+      <div class="box">
+        <h3 class="box__title m-heading">What’s different about Manage?</h3>
+        <p class="box__desc">
+          Manage provides all the functionality your team needs, without the
+          complexity. Our software is tailor-made for modern digital product
+          teams.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="box__title s-heading">Track company-wide progress</h3>
+        <p class="box__desc">
+          See how your day-to-day tasks fit into the wider vision. Go from
+          tracking progress at the milestone level all the way done to the
+          smallest of details. Never lose sight of the bigger picture again.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="box__title s-heading">Advanced built-in reports</h3>
+        <p class="box__desc">
+          Set internal delivery estimates and track progress toward company
+          goals. Our customisable dashboard helps you build out the reports
+          you need to keep key stakeholders informed.
+        </p>
+      </div>
+      <div class="box">
+        <h3 class="box__title s-heading">Everything you need in one place</h3>
+        <p class="box__desc">
+          Stop jumping from one service to another to communicate, store
+          files, track tasks and share documents. Manage offers an all-in-one
+          team productivity solution.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="what">
+    <div class="container flex col">
+      <h2 class="what__title m-heading">What they've said</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper flex">
+          <div class="swiper-slide card flex col">
+            <img src="images/avatar-anisha.png" class="card__img" alt="people pic">
+            <div class="card__info">
+              <h1 class="card__heading s-heading">Anisha Li</h1>
+              <p class="card__desc">Manage has supercharged our team’s workflow. The ability to maintain visibility on
+                larger milestones at all times keeps everyone motivated.</p>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <img src="images/avatar-ali.png" class="card__img" alt="people pic">
+            <div class="card__info">
+              <h1 class="card__heading s-heading">Ali Bravo</h1>
+              <p class="card__desc">We have been able to cancel so many other subscriptions since using Manage. There is
+                no more cross-channel confusion and everyone is much
+                more focused.</p>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <img src="images/avatar-richard.png" class="card__img" alt="people pic">
+            <div class="card__info">
+              <h1 class="card__heading s-heading">Richard Watts</h1>
+              <p class="card__desc">Manage allows us to provide structure and process. It keeps us organized and focused.
+                I can’t stop recommending them to everyone I talk to!</p>
+            </div>
+          </div>
+          <div class="swiper-slide card">
+            <img src="images/avatar-shanai.png" class="card__img" alt="people pic">
+            <div class="card__info">
+              <h1 class="card__heading s-heading">Shanai Gough</h1>
+              <p class="card__desc">Their software allows us to track, manage and collaborate on our projects from
+                anywhere. It keeps the whole team in-sync without being intrusive.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="swiper-pagination"></div>
+      </div>
+      <button class="what__btn btn btn-primary">Get started</button>
+    </div>
+  </section>
+  <section class="simplify">
+    <div class="container flex row">
+      <h2 class="simplify__title m-heading">
+        Simplify how your team works today.
+      </h2>
+      <button class="simplify__btn btn btn-light">Get Started</button>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container grid">
+      <div class="footer-section flex col">
+        <img src="images/logo-footer.svg" alt="" class="footer__logo" />
+        <div class="footer__social flex">
+          <a href="https://www.facebook.com" target="_blank" class="footer__link" aria-label="facebook"><i
+              class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://www.youtube.com" target="_blank" class="footer__link" aria-label="youtube"><i
+              class="fab fa-youtube fa-2x"></i></a>
+          <a href="http://www.twitter.com" target="_blank" class="footer__link" aria-label="twitter"><i
+              class="fab fa-twitter fa-2x"></i></a>
+          <a href="http://www.pinterest.com" target="_blank" class="footer__link" aria-label="pinterest"><i
+              class="fab fa-pinterest fa-2x"></i></a>
+          <a href="http://www.instagram.com" target="_blank" class="footer__link" aria-label="instagram"><i
+              class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <p class="footer__copyright">Copyright 2020. All right Reserved</p>
+      </div>
+      <div class="footer-section flex row">
+        <ul class="footer__list">
+          <li class="footer__list-item"><a href="#" class="footer__link">Home</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Pricing</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Products</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">About us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <ul class="footer__list">
+          <li class="footer__list-item"><a href="#" class="footer__link">Carrers</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Community</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__link">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-section flex col">
+        <form class="footer__form flex">
+          <input type="email" id="email-id" class="footer__input" placeholder="Updates in your inbox..."
+            aria-label="Email Address" />
+          <input type="submit" class="footer__btn btn btn-primary" value="Go" />
+        </form>
+        <p class="footer__copyright">Copyright 2020. All right Reserved</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script async src="https://kit.fontawesome.com/c60f73f892.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
